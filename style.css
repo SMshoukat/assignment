@@ -1,0 +1,27 @@
+.btns {
+    padding: 8px 25px;
+    background: linear-gradient(#E65C00,#F9D423);
+    border: none;
+    color: #fff;
+}
+.heading{
+    font-weight: 700;
+    font-size: 40px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+img {
+    object-fit: contain;
+}
+@media only screen and (max-width:786px) {
+.reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+    
+    
+}
